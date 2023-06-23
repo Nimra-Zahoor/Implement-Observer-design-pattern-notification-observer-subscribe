@@ -26,16 +26,19 @@ class Click {
 }
 
 const click = new Click();
-
+//let count = 0;
 function notifyClick() {
+  // count = count +1 ;
+
+
   if (ob1) {
-    document.getElementById("ob1").textContent = "notified";
+    document.getElementById("ob1").textContent = "New Notification";
   }
   if (ob2) {
-    document.getElementById("ob2").textContent = "notified";
+    document.getElementById("ob2").textContent = "New Notification";
   }
   if (ob3) {
-    document.getElementById("ob3").textContent = "notified";
+    document.getElementById("ob3").textContent = "New Notification";
   }
 }
 
